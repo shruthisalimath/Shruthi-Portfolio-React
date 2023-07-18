@@ -1,51 +1,78 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-// import AboutMe from './components/pages/AboutMe';
-// import Contact from './components/pages/Contact';
-// import Portfolio from './components/pages/Portfolio';
-// import Resume from './components/pages/Resume';
+import AboutMe from './components/pages/AboutMe';
+import Contact from './components/pages/Contact';
+import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
 
 function App() {
+  const [currentPage, handlePageChange] = useState('AboutMe');
 
-  return (
-    <div>
-      <Header />
-      <Footer />
+  const renderPage = () => {
+    switch(currentPage) {
+      case "Portfolio":
+        return <Portfolio />;
+      case "Contact":
+        return <Contact />;
+      case "Resume":
+        return <Resume />;
+      default:
+        return <AboutMe/>;
+    }
+  };
+  return(
+    <div className= "MyPortfolio">
+      <Header
+      currentPage={currentPage}
+      handlePageChange={handlePageChange} />
+      <div>
+        {renderPage(currentPage)}
       </div>
+      <Footer />
+    </div>
   );
 }
+// function App() {
+
+//   return (
+//     <div>
+//       <Header />
+//       <Footer />
+//       </div>
+//   );
+// }
 
 
 
 
 
-  // const [ currentSection, handleSectionChange] = useState();
+// const [ currentSection, handleSectionChange] = useState();
 
-  // const renderPage = () => {
-  //   switch (currentSection) {
-  //     case 'Portfolio':
-  //       return <Portfolio />;
-  //     case 'Contact':
-  //         return <Contact />;
-  //         case 'Resume':
-  //           return <Resume />;
-  //           default: 
-  //             return <AboutMe />;
-  //   }
-  // };
-  // return (
-  //   <div className="myPortfolio">
-      //  {/* <Header 
-      //   currentSection={currentSection}
-      //   handleSectionChange={handleSectionChange}
-      //  />
-      //   <div>
-      //   { renderPage(currentSection) }
-      //  </div>
-      //  //<Footer />  */}
+// const renderPage = () => {
+//   switch (currentSection) {
+//     case 'Portfolio':
+//       return <Portfolio />;
+//     case 'Contact':
+//         return <Contact />;
+//         case 'Resume':
+//           return <Resume />;
+//           default: 
+//             return <AboutMe />;
+//   }
+// };
+// return (
+//   <div className="myPortfolio">
+//  {/* <Header 
+//   currentSection={currentSection}
+//   handleSectionChange={handleSectionChange}
+//  />
+//   <div>
+//   { renderPage(currentSection) }
+//  </div>
+//  //<Footer />  */}
 //     </div>
 //   );
 // }
