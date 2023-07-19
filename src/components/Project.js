@@ -22,7 +22,7 @@ const Project = (props) => {
         );
 
     // Variable to hold the project description, if the description was passed.
-    const description = props.description ? <p>{props.description}</p> : "";
+    const description = props.description ? <p> {props.description} </p> : "";
 
     // Variable to hold the project's technologies, if the technologies were passed.
     const technologies = props.technologies ? (
