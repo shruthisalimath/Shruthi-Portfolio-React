@@ -28,9 +28,9 @@ function App() {
       <Header
       currentPage={currentPage}
       handlePageChange={handlePageChange} />
-      <div>
+      {/* <div>
         {renderPage(currentPage)}
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
