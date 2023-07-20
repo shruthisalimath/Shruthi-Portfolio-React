@@ -72,7 +72,8 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .AboutMeTitle {
@@ -103,7 +104,16 @@ h2 {
   flex-wrap: wrap;
   padding-top: 5%;
   padding-bottom: 5%;
+
 } 
+
+.contactForm button {
+  background-color: #0e0512;
+  color:orange;
+  padding:10px;
+  font-weight: bold;
+}
+
 
 form {
   width: 150%;
@@ -124,12 +134,17 @@ form {
   font-size: 25px;
 }
 
+.resumeLink {
+  font-size: 22px;
+  color:darkmagenta;
+}
 .footerLink {
   position: relative;
   bottom: 0;
   width: 100%; 
   text-align: center;
   font-size: 20px;
-  
+  background: linear-gradient(0deg, #010f3e 2%, #0e0512 90%) no-repeat;
+  color: #9dc6d8;
 }
 
