@@ -12,16 +12,20 @@
 } 
 
 
-body {
-  
-  background-color: var(--tertiary-color);
+
+
+ body {
+  background: url('./assets/images/portfolio-backgroungImage.jpeg')no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
   margin: 0px;
 }
 
 /* Header */
 
 header {
-  background-color: var(--secondary-color);
+  
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -33,11 +37,10 @@ header h1 {
   font-size: 3vw;
   color: var(--border-color);
   text-shadow: 0 5px 20px rgba(0, 0 , 0, 0.8);
-  background-color: var(--primary-color) ;
   width: 30%;
   margin: 15px 10px 15px 25px;
   text-align: right;
-  padding: 15px 25px 20px 10px;
+  padding: 15px 35px 20px 10px;
   border-radius: 10px 15px;
 }
 
@@ -79,6 +82,7 @@ header h1 {
 }
 .AboutMeContent {
   font-size: 20px;
+  color:burlywood;
 }
 /* .flex-row {
   display: flex;
@@ -88,6 +92,10 @@ header h1 {
 } */
 h2 {
   font-size: 3rem;
+  text-shadow: 2px 2px rgb(219, 168, 150);
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
 }
  .contactForm {
   padding-left: 40%;
@@ -106,7 +114,15 @@ form {
   
 }
 
-
+.resumeContainer {
+  padding-left: 50px;
+}
+.resume {
+ font-size: 15px;
+}
+.resumeHead{
+  font-size: 25px;
+}
 
 .footerLink {
   position: relative;

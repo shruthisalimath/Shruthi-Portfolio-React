@@ -17,17 +17,5 @@ function Header(props) {
       </header>
     );
   }
-// function Header(props) {
-//     const { currentSection, handleSectionChange } = props
-//     return(
-//         <header className='top'>
-//             <h1>
-//                 Shruthi's Portfolio
-//             </h1>
-//             <Nav currentSection={currentSection} handleSectionChange={ handleSectionChange } />
-           
-//         </header>
-//     )
-// }
 
 export default Header;
