@@ -28,13 +28,14 @@ const Contact = () => {
                 setErrorMessage('');
             }
         }
+        if (!errorMessage) {
+            setFormState({ ...formState, [e.target.name]: e.target.value });
+          }
     };
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (!errorMessage) {
-            setFormState({ [e.target.name]: e.target.value });
             console.log('Form', formState);
-        }
+        
         window.location.reload(false);
     };
     return (
@@ -42,7 +43,7 @@ const Contact = () => {
             <Row className="justify-content-md-center">
                 <div className="contact">
                     <h2 data-testid="h1tag">Contact</h2>
-                    <Form onSubmit={handleSubmit} id="contact-form">
+                    <Form onSubmit={ handleSubmit } id="contact-form">
                         <Form.Group> 
                             <Form.Label>Name:</Form.Label>
                             <Form.Control type="text" name= "name" defaultValue={name} placeholder="Enter your name"  onBlur={handleChange}/>
