@@ -38,23 +38,23 @@ const Contact = () => {
         window.location.reload(false);
     };
     return (
-        <section>
+        <section className="contactForm">
             <Row className="justify-content-md-center">
                 <div className="contact">
                     <h2 data-testid="h1tag">Contact</h2>
                     <Form onSubmit={handleSubmit} id="contact-form">
                         <Form.Group> 
-                            <Form.Label>Enter Your Name:</Form.Label>
+                            <Form.Label>Name:</Form.Label>
                             <Form.Control type="text" name= "name" defaultValue={name} placeholder="Enter your name"  onBlur={handleChange}/>
                         </Form.Group>
 
                         <Form.Group> 
-                            <Form.Label>Enter Your Email:</Form.Label>
+                            <Form.Label>Email:</Form.Label>
                             <Form.Control type="email" name= "email" defaultValue={email} placeholder="Enter your email "  onBlur={handleChange}/>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Example textarea</Form.Label>
+                            <Form.Label>Textarea</Form.Label>
                             <Form.Control as="textarea" rows={3} name= "message" defaultValue={message} onBlur={handleChange} />
                         </Form.Group>
 
