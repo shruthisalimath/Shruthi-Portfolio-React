@@ -1,8 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-//Create header using Nav as achild component, passing props from page component
-
 function Header(props) {
     const { currentPage, handlePageChange } = props
     return (
