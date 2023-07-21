@@ -98,13 +98,14 @@ npm test
 
 
 ## Mock Up
-    ![Portfolio](src/assets/images/20-react-homework-demo-01.gif)
+    ![mockUp-Portfolio](./src/assets/images/20-react-homework-demo-01.gif)
 
 ## ScreenShot
-    ![Shruthi's-Portfolio](src/assets/images/screenShot-Porfolio-React.png)
+    ![Shruthi-Portfolio](./src/assets/images/screenShot-Porfolio-React.png)
 
 ## URL
     1. URL of the functional, deployed application.
+    https://shruthisalimath.github.io/Shruthi-Portfolio-React/
 
     2. URL of the GitHub repository.
     https://github.com/shruthisalimath/Shruthi-Portfolio-React
