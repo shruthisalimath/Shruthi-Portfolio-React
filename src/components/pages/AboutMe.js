@@ -8,7 +8,7 @@ const AboutMe = () => (
             <Col>
                 <Figure>
                     <Figure.Image
-                        width={300}
+                        width={250}
                         height={180}
                         alt="Profile"
                         src={profilePic}

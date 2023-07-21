@@ -25,7 +25,7 @@
 /* Header */
 
 header {
-  
+ 
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -98,6 +98,27 @@ h2 {
   margin: 5px 0;
   line-height: 1.25;
 }
+
+.line{
+  color: #b4b4b4;
+  border-width: 3px;
+}
+
+/* #portfolio{
+  background: linear-gradient(45deg, #DAE2F8 30%, #D6A4A4 90%) no-repeat;
+} */
+
+.heading{
+  /* background: -webkit-linear-gradient(#3a444e, #d84e4e); */
+  background: -webkit-linear-gradient(#575a60, #711a8c);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
  .contactForm {
   padding-left: 40%;
   display: flex;
@@ -146,5 +167,57 @@ form {
   font-size: 20px;
   background: linear-gradient(0deg, #010f3e 2%, #0e0512 90%) no-repeat;
   color: #9dc6d8;
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  input{
+    width:400px;
+  }
+  
+  textarea{
+    width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+
+  .nav-item {
+    font-weight: 500;
+  }
+
+
+input{
+  width:400px;
+}
+
+textarea{
+  width: 400px;
+}
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    justify-content: center;
+  }
+
+  .nav-item {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+input{
+  width:300px;
+}
+
+textarea{
+  width: 300px;
+}
 }
 

@@ -1,4 +1,4 @@
-//imports the images fro each project
+//imports the images for each project
 import passwordGenerator from "../../assets/images/Password-generator.png";
 import CareConnect from "../../assets/images/CareConnect.PNG";
 import Weather_Dashboard from "../../assets/images/Screen_Shot_Weather_Dashboard.png";
@@ -27,7 +27,7 @@ const projectList = [
         GithubRepo: "https://https://github.com/pdangerfield/CareConnect.com/shruthisalimath/Secure-key-generator"
     },
     {
-        title: "Weather_Dashboard",
+        title: "Weather-Dashboard",
         appUrl: "https://shruthisalimath.github.io/Weather-Panel/",
         image: Weather_Dashboard,
         description: " weather dashboard application to get current weather conditions of city and 5 day forecast of that city.",
@@ -35,7 +35,7 @@ const projectList = [
         GithubRepo: "https://github.com/shruthisalimath/Weather-Panel"
     },
     {
-        title: "Tech_Blog",
+        title: "Tech-Blog",
         appUrl: " https://techno-blogger-mvc.herokuapp.com/",
         image: Tech_Blog,
         description: "Tech_Blog creates a blog-style app where developers can create an account, edit their information, make or edit posts and comment on other users posts.",
@@ -63,7 +63,7 @@ const projectList = [
         title: "National-Park",
         appUrl: " https://shruthisalimath.github.io/Team-Shrek/",
         image: nationalPark,
-        description: "",
+        description: "Search of National Parks in particular state with its information and Current day weather iformationof the city.",
         technologies: "Html,Css,Bulma,Javascript,Jquery",
         GithubRepo: "https://github.com/shruthisalimath/Team-Shrek"
     },
