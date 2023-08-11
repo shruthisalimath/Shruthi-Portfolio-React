@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Shruthi-Portfolio-React/static/css/main.7309678c.css",
-    "main.js": "/Shruthi-Portfolio-React/static/js/main.04e2808d.js",
+    "main.js": "/Shruthi-Portfolio-React/static/js/main.d233fd52.js",
     "static/media/profilepic.jpg": "/Shruthi-Portfolio-React/static/media/profilepic.45b249b508b6048c79f8.jpg",
     "static/media/Screenshot-national-park.png": "/Shruthi-Portfolio-React/static/media/Screenshot-national-park.22c5ef9d8dab26023b4f.png",
     "static/media/screen-short_MVC.png": "/Shruthi-Portfolio-React/static/media/screen-short_MVC.4280c1236eb9b9cfbb4d.png",
@@ -9,6 +9,7 @@
     "static/media/screenShot-codeTest.png": "/Shruthi-Portfolio-React/static/media/screenShot-codeTest.a530a56fff8ef38122ff.png",
     "static/media/Screen-Shot-Work-Day-Scheduler.png": "/Shruthi-Portfolio-React/static/media/Screen-Shot-Work-Day-Scheduler.2edd46d42df5c07c91e7.png",
     "static/media/Password-generator.png": "/Shruthi-Portfolio-React/static/media/Password-generator.2dee672339f242c6f3fd.png",
+    "static/media/taskhive_login.png": "/Shruthi-Portfolio-React/static/media/taskhive_login.cd026ef19fcafda5b17a.png",
     "static/media/Screenshot-noteTaker.png": "/Shruthi-Portfolio-React/static/media/Screenshot-noteTaker.0cea27f5b7e584d0791d.png",
     "static/media/Resume-Shruthi.pdf": "/Shruthi-Portfolio-React/static/media/Resume-Shruthi.509a0376dd671404b215.pdf",
     "static/media/portfolio-backgroungImage.jpeg": "/Shruthi-Portfolio-React/static/media/portfolio-backgroungImage.13d97ca9d2a31d94b2c7.jpeg",
@@ -16,10 +17,10 @@
     "static/media/CareConnect.PNG": "/Shruthi-Portfolio-React/static/media/CareConnect.9449377f4f3ab4b68210.PNG",
     "index.html": "/Shruthi-Portfolio-React/index.html",
     "main.7309678c.css.map": "/Shruthi-Portfolio-React/static/css/main.7309678c.css.map",
-    "main.04e2808d.js.map": "/Shruthi-Portfolio-React/static/js/main.04e2808d.js.map"
+    "main.d233fd52.js.map": "/Shruthi-Portfolio-React/static/js/main.d233fd52.js.map"
   },
   "entrypoints": [
     "static/css/main.7309678c.css",
-    "static/js/main.04e2808d.js"
+    "static/js/main.d233fd52.js"
   ]
 }
