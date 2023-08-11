@@ -1,4 +1,5 @@
 //imports the images for each project
+import taskhive from "../../assets/images/taskhive_login.png";
 import passwordGenerator from "../../assets/images/Password-generator.png";
 import CareConnect from "../../assets/images/CareConnect.PNG";
 import Weather_Dashboard from "../../assets/images/Screen_Shot_Weather_Dashboard.png";
@@ -10,6 +11,14 @@ import nationalPark from "../../assets/images/Screenshot-national-park.png";
 import noteTaker from "../../assets/images/Screenshot-noteTaker.png";
 
 const projectList = [
+    {
+        title: "Task-Hive",
+        appUrl: "https://shruthisalimath.github.io",
+        image: taskhive,
+        description: "Task Hive is a project management application that allows users to create projects and tasks to help track their work. ",
+        technologies: "REACT,ApolloServer,GraphQl,Chakra UI,JWT,MONGODB,Express,Brcypt",
+        GithubRepo: "https://github.com/shruthisalimath/TaskHive"
+    },
     {
         title: "Password-Generator",
         appUrl: "https://shruthisalimath.github.io/Secure-key-generator/",
