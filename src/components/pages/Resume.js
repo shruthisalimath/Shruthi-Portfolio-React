@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeDoc from '../../assets/images/Resume-Shruthi.pdf';
+import resumeDoc from '../../assets/images/ShruthiRajashekar-RESUME.pdf';
 
 const Resume = () => (
     <div className="resumeContainer">
@@ -13,9 +13,8 @@ const Resume = () => (
             <li>CSS</li>
             <li>Javascript</li>
             <li>Jquery</li>
-            <li>Responsive Design</li>
             <li>React</li>
-            <li>Bootstrap</li>
+            <li>Handlebars</li>
         </ul>
         <div className="resumeHead">Back-End proficiencies: </div>
         <ul className="resume">

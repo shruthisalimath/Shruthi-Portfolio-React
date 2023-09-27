@@ -21,15 +21,20 @@ const AboutMe = () => (
                 </div>
                 <div className='AboutMeContent'>
                     <p>
-                        My name is Shruthi. I am originally from India. Moved to USA after my marriage and have 2 beautiful girls.
+                        My name is Shruthi Rajashekar. I am originally from India. Moved to USA after my marriage.
+                    </p>
+                    
+                    <p>
+                        I am a Full Stack Web developer with certification in Full Stack Web Development and master degree in Computer science.
+                        Effective at combining logical thinking and problem solving to develop user-friendly applications.
+                        Life-Long dedication to learning and self development.
+                        Quick-learner, organized, collaborative communicator.
+                        
                     </p>
                     <p>
-                        I am a graduate in computer science from india. I am Bollywood dance teacher in draper.And I also do event decoration.
+                        I am Bollywood dance teacher and also an Event Decorator.
                         Dancing is my passion and I love hikking in summer.
-                        I am vegetarian food lover.
-                    </p>
-                    <p>
-                        Currently I am a Bootcamp student of U of U. Learning how to create websites as full stack developer.
+                        I am also a vegetarian food lover.
                     </p>
                 </div>
             </Col>
