@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shruthi-Portfolio-React/static/css/main.7309678c.css",
-    "main.js": "/Shruthi-Portfolio-React/static/js/main.9cc4729c.js",
+    "main.css": "/Shruthi-Portfolio-React/static/css/main.5b4c431e.css",
+    "main.js": "/Shruthi-Portfolio-React/static/js/main.b1d7e45a.js",
     "static/media/profilepic.jpg": "/Shruthi-Portfolio-React/static/media/profilepic.45b249b508b6048c79f8.jpg",
     "static/media/Screenshot-national-park.png": "/Shruthi-Portfolio-React/static/media/Screenshot-national-park.22c5ef9d8dab26023b4f.png",
     "static/media/screen-short_MVC.png": "/Shruthi-Portfolio-React/static/media/screen-short_MVC.4280c1236eb9b9cfbb4d.png",
@@ -11,16 +11,16 @@
     "static/media/Password-generator.png": "/Shruthi-Portfolio-React/static/media/Password-generator.2dee672339f242c6f3fd.png",
     "static/media/taskhive_login.png": "/Shruthi-Portfolio-React/static/media/taskhive_login.cd026ef19fcafda5b17a.png",
     "static/media/Screenshot-noteTaker.png": "/Shruthi-Portfolio-React/static/media/Screenshot-noteTaker.0cea27f5b7e584d0791d.png",
-    "static/media/ShruthiRajashekar-RESUME.pdf": "/Shruthi-Portfolio-React/static/media/ShruthiRajashekar-RESUME.f534b681fcd2684f7e8d.pdf",
+    "static/media/ShruthiRajashekar-Resume.pdf": "/Shruthi-Portfolio-React/static/media/ShruthiRajashekar-Resume.c2e723cb80357d527f0f.pdf",
     "static/media/portfolio-backgroungImage.jpeg": "/Shruthi-Portfolio-React/static/media/portfolio-backgroungImage.13d97ca9d2a31d94b2c7.jpeg",
     "static/media/Screen-Shot-LogoGenerator.png": "/Shruthi-Portfolio-React/static/media/Screen-Shot-LogoGenerator.9384bceb267e76ccc532.png",
     "static/media/CareConnect.PNG": "/Shruthi-Portfolio-React/static/media/CareConnect.9449377f4f3ab4b68210.PNG",
     "index.html": "/Shruthi-Portfolio-React/index.html",
-    "main.7309678c.css.map": "/Shruthi-Portfolio-React/static/css/main.7309678c.css.map",
-    "main.9cc4729c.js.map": "/Shruthi-Portfolio-React/static/js/main.9cc4729c.js.map"
+    "main.5b4c431e.css.map": "/Shruthi-Portfolio-React/static/css/main.5b4c431e.css.map",
+    "main.b1d7e45a.js.map": "/Shruthi-Portfolio-React/static/js/main.b1d7e45a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7309678c.css",
-    "static/js/main.9cc4729c.js"
+    "static/css/main.5b4c431e.css",
+    "static/js/main.b1d7e45a.js"
   ]
 }
