@@ -149,10 +149,11 @@ form {
   padding-left: 50px;
 }
 .resume {
- font-size: 15px;
+ font-size: 20px;
 }
 .resumeHead{
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .resumeLink {

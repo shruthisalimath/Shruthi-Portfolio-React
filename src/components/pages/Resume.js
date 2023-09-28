@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeDoc from '../../assets/images/ShruthiRajashekar-RESUME.pdf';
+import resumeDoc from '../../assets/images/ShruthiRajashekar-Resume.pdf';
 
 const Resume = () => (
     <div className="resumeContainer">
